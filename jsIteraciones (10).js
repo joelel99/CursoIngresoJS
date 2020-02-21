@@ -10,7 +10,13 @@ function mostrar()
 		while (isNaN(numero)) {
 			numero= parseInt(prompt("Ese no  es un numero.ingresar un numero"));
 		}
-		
+		if (numero >0) {
+			
+		}else if(numero <0 ){
+
+		}else {
+
+		}
 
 
 
