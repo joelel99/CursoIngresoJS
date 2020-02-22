@@ -4,7 +4,7 @@ function mostrar()
 	var numero;
 	var maximo;
 	var minimo;
-	var respuesta ='si';
+	var respuesta ="si";
 	// declarar variables
 	
 	do{
@@ -22,7 +22,7 @@ function mostrar()
 		}
 		
 		respuesta = prompt("Quiere ingresar otro numero.?")
-	}while (respuesta == 'si');
+	}while (respuesta == "si");
 
 document.getElementById("maximo").value = maximo;
 document.getElementById("minimo").value = minimo;
