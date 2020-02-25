@@ -1,12 +1,6 @@
 function mostrar()
 {
-	acumulador = 0 ;
-
-	while (acumulador < 5) {
-
-		acumulador++;
-		alert (acumulador);
-	}
+	alert('iteración while');
 
 
 }//FIN DE LA FUNCIÓN

@@ -3,19 +3,13 @@ function mostrar()
 
 	var contador=0;
 	var acumulador=0;
-	var numero;
+	var seguir ='s';
 
-	while (contador <5) {
-		numero = parseInt(prompt("Ingrese un numero"));
-		acumulador = acumulador + numero;
+	while (seguir =='s') {
+		alert("hola");
 
-
-		contador++;
+		seguir = prompt("quiere que lo salude de nuevo?? ");
 	}
-
-
-
-
 
 
 document.getElementById('suma').value=acumulador;
